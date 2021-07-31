@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AA435E926B5A152002F87FA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA435E826B5A152002F87FA /* Extensions.swift */; };
+		8AA435EC26B5B6A4002F87FA /* AuthResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA435EB26B5B6A4002F87FA /* AuthResponse.swift */; };
 		8AE92D1226B56BF000B6CC9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE92D1126B56BF000B6CC9D /* AppDelegate.swift */; };
 		8AE92D1426B56BF000B6CC9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE92D1326B56BF000B6CC9D /* SceneDelegate.swift */; };
 		8AE92D1B26B56BF000B6CC9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AE92D1A26B56BF000B6CC9D /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8AA435E826B5A152002F87FA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		8AA435EB26B5B6A4002F87FA /* AuthResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthResponse.swift; sourceTree = "<group>"; };
 		8AE92D0E26B56BF000B6CC9D /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE92D1126B56BF000B6CC9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AE92D1326B56BF000B6CC9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 				8AE92D1326B56BF000B6CC9D /* SceneDelegate.swift */,
 				8AE92D1126B56BF000B6CC9D /* AppDelegate.swift */,
 				8AE92D1A26B56BF000B6CC9D /* Assets.xcassets */,
+				8AA435E826B5A152002F87FA /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				8AE9D20C26B5866E00154BCF /* AudioTrack.swift */,
 				8AE9D20F26B5867800154BCF /* Artist.swift */,
 				8AE9D21226B5868100154BCF /* Profile.swift */,
+				8AA435EB26B5B6A4002F87FA /* AuthResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -256,11 +262,13 @@
 				8AE9D1FF26B5861F00154BCF /* AuthManager.swift in Sources */,
 				8AE9D1D926B5851B00154BCF /* TabBarViewController.swift in Sources */,
 				8AE9D1FB26B5860200154BCF /* SearchResultsViewController.swift in Sources */,
+				8AA435EC26B5B6A4002F87FA /* AuthResponse.swift in Sources */,
 				8AE9D20226B5862A00154BCF /* APICaller.swift in Sources */,
 				8AE9D20526B5863400154BCF /* HapticsManager.swift in Sources */,
 				8AE9D21326B5868100154BCF /* Profile.swift in Sources */,
 				8AE9D20926B5866400154BCF /* PlayList.swift in Sources */,
 				8AE9D1F326B585C000154BCF /* ProfileViewController.swift in Sources */,
+				8AA435E926B5A152002F87FA /* Extensions.swift in Sources */,
 				8AE9D1E726B5857E00154BCF /* AuthViewController.swift in Sources */,
 				8AE9D1E226B5855600154BCF /* LibraryViewController.swift in Sources */,
 				8AE92D1226B56BF000B6CC9D /* AppDelegate.swift in Sources */,
